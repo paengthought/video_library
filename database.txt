@@ -1,0 +1,12 @@
+
+
+create table tb_vid (
+
+	id int primary key auto_increment,
+	title varchar(50),
+	genre varchar(50),
+	artist varchar(50),
+	year varchar(4),
+	ratings char(1),
+	details text	
+)
